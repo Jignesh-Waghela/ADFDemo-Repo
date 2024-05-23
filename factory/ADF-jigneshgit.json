@@ -1,0 +1,9 @@
+{
+	"name": "ADF-jigneshgit",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6b64df3b-fb04-4662-86af-34b91085972d",
+		"tenantId": "3fe19e3d-0ca2-40a5-8782-19497d8400e5"
+	}
+}
