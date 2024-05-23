@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ADF-jigneshgit"
 		},
+		"Gittesting_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Gittesting'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"Gittesting_connectionString": {
+						"value": "[parameters('Gittesting_connectionString')]"
 					}
 				}
 			},

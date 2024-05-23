@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "ADF-jigneshgit"
 		},
+		"Gittesting_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
